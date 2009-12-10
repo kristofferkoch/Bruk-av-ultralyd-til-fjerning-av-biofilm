@@ -8,6 +8,6 @@
 *.bbl
 \#*\#
 *.bak
-ProsjektH09.lof
-ProsjektH09.lot
-ProsjektH09.ttt
+*.lof
+*.lot
+*.ttt
