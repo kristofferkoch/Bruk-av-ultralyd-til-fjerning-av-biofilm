@@ -8,4 +8,4 @@ ProsjektH09.pdf: *.tex Bibliografi.bib
 	pdflatex ProsjektH09
 
 clean:
-	rm -f *.pdf *.log *~ *.out *.aux *.tox *.blg *.bbl *.toc *.???.bak
+	rm -f *.pdf *.log *~ *.out *.aux *.tox *.blg *.bbl *.toc *.???.bak *.lof *.lot *.ttt
