@@ -1,5 +1,7 @@
+all: ProsjektH09.pdf TODO
 
-all: ProsjektH09.pdf
+TODO: *.tex
+	grep -in xxx *.tex  >TODO
 
 ProsjektH09.pdf: *.tex Bibliografi.bib
 	pdflatex ProsjektH09
