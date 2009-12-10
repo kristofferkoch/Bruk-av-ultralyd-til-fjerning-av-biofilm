@@ -1,7 +1,7 @@
 
 all: ProsjektH09.pdf
 
-ProsjektH09.pdf: *.tex boker.bib 
+ProsjektH09.pdf: *.tex Bibliografi.bib
 	pdflatex ProsjektH09
 	bibtex ProsjektH09
 	pdflatex ProsjektH09
